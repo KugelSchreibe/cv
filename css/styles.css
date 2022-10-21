@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-photo {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+p > a, div > a {
+  text-decoration: none;
+}
+
+.mr-sm {
+  margin-right: 12px;
+}
+
+.ml-sm {
+  margin-left: 12px;
+}
+
+.icons-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icon {
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.brand-title {
+  font-weight: bolder;
+}
+
+.askme {
+  color: #0ba5be;
+}
+
+.bbq {
+  color: #198754;
+}
+
+.loop {
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  border-radius: 10px;
+}
+
+.loop:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: transform 0.7s; !important;
+}
