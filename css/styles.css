@@ -44,6 +44,7 @@ p > a, div > a {
 }
 
 .loop {
+  background-color: white;
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
   border-radius: 10px;
@@ -54,4 +55,24 @@ p > a, div > a {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   transition: transform 0.7s; !important;
+}
+
+.back {
+  min-height: 100vh;
+  position: relative;
+  height: 100%;
+  background-image: url("../img/img2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.white-text {
+  color: white;
+}
+
+.info {
+  background-color: white;
+  border-radius: 10px;
 }
