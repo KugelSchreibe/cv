@@ -44,7 +44,7 @@ p > a, div > a {
 }
 
 .loop {
-  background-color: white;
+  background-color: #ffd0b6;
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
   border-radius: 10px;
@@ -68,11 +68,11 @@ p > a, div > a {
   background-size: cover;
 }
 
-.white-text {
-  color: white;
+.title-text {
+  color: #c62828;
 }
 
 .info {
-  background-color: white;
+  background-color: #ffd0b6;
   border-radius: 10px;
 }
