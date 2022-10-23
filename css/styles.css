@@ -48,6 +48,7 @@ p > a, div > a {
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
   border-radius: 10px;
+  color: #e32c5a;
 }
 
 .loop:hover {
@@ -75,4 +76,5 @@ p > a, div > a {
 .info {
   background-color: #ffd0b6;
   border-radius: 10px;
+  color: #e32c5a;
 }
